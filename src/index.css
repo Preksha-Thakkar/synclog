@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.seachContainer{
+  display: flex;
+  justify-content: space-between;
+  height: 85px;
+  align-items: center;
+}
+.syncText{
+  font-size: medium;
+  font-weight: bold;
+}
+.left{
+  justify-content: left;
+}
+.p-1{
+  padding: 10px;
+}
+.appbar{
+  background-color: #fff;
+}
+.css-ivnu1y-MuiPaper-root-MuiAppBar-root{
+  background-color: #fff !important;
+  border-bottom: 1px solid lightgray;
+  box-shadow: none;
+}

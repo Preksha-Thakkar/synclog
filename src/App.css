@@ -1,7 +1,32 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'LexendRegular';
+  src: local('CustomFont1Name'),
+       url('./Assets/Lexend/static/Lexend-Regular.ttf') format('woff');
 }
 
+.App {
+  text-align: center;
+  font-family: LexendRegular !important;
+  letter-spacing: 0.32px;
+}
+.MuiBox-root, .MuiTypography-root{
+  font-family: LexendRegular !important;
+  letter-spacing: 0.32px !important;
+  color: #5A5A5F !important;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 168.75% */
+letter-spacing: 0.32px;
+}
+.MuiDataGrid-root, .MuiButtonBase-root, .MuiInputBase-root, div, span, .MuiAvatar-root, .MuiDataGrid-footerContainer, 
+.MuiTablePagination-toolbar, .MuiTablePagination-selectLabel, .MuiTablePagination-displayedRows{
+  font-family: LexendRegular !important;
+}
+.MuiSelect-select em{
+  font-style: normal !important;
+  font-size: 15px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,11 +48,31 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.a-i-c{
+  align-items: center;
+}
+.m-1{
+  margin: 10px;
+}
+.custom-margin{
+  margin-top: -33px;
+  margin-right: 26px;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
 .App-link {
   color: #61dafb;
 }
-
+.menu .MuiFormControl-root{
+  margin-left: 300px;
+  margin-right: 10px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +80,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+.center {
+  text-align: center;
+}
+.pt-5{
+  padding-top: 50px !important;
+}
+.left{
+  text-align: left;
+}
+.salesOrderBox{
+  background-color: #F3F5F7;
+  height: 100%;
+}
+.tableContainer{
+  height: calc(100vh - 188px) !important;
+}
+.mr-1{
+  margin-right: 10px !important;
+}
+.d-flex{
+  display: flex;
+}
+.MuiSvgIcon-root{
+  color: black;
+}
+.MuiTypography-root {
+  display: flex;
+}
+.MuiOutlinedInput-input{
+  display: flex !important;
+}
+.activeLink{
+  background: aliceblue !important;
+  color: #1B75A9 !important;
+}
+.activeLink .MuiSvgIcon-root{
+  color: #1B75A9 !important;
+}
+.m-10{
+  margin: 10px;
+}
+.justify-space-between{
+  justify-content: space-between;
+}
+
+.css-1gctnaj-MuiInputBase-input-MuiFilledInput-input{
+  padding-top: 5px !important;
+}
+.css-r47a1p-MuiFormControl-root{
+  margin: 0 !important;
+}
+.small-font svg{
+  font-size: 15px !important;
+}
+.css-1gtpq4r-MuiButtonBase-root-MuiIconButton-root{
+  padding: 0;
 }
